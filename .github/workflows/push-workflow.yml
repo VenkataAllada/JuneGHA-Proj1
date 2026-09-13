@@ -9,8 +9,8 @@ on:
             - main
             - release-*
     workflow_dispatch:
-    schedule:
-        - cron: '*/2 * * * *'            
+    # schedule:
+    #     - cron: '*/2 * * * *'            
 
 jobs:
     first_job:
